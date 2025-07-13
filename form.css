@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 30;
+  left: 50;
+  width: 100%;
+  height: 100%;
+  background-image: url('/0f93798d7dbd239809f07f7b00e9891e.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.text {
+  color: white;
+}
